@@ -1,0 +1,63 @@
+---
+title: "First Blog Post"
+description: 
+  DACSS 601 HomeWork 1
+author:
+  - name: Cynthia Hester
+date: 09/27/2021
+categories:
+  - homework 1
+  - DACSS 601
+  - cynthia hester
+  
+output:
+  distill::distill_article:
+    self-contained: false
+draft: true
+---
+
+
+This is my first attempt at a blog post in R,whew!
+
+I am going to import data from the Air Passengers data set which is included in R. It is comprised of data from the monthly totals of international airline passengers, 1949 to 1960. I am going visually express the data on a histogram plot which is a strength of R.
+
+
+
+
+```{r}
+hist(AirPassengers, 
+     main="Histogram for Air Passengers", 
+     xlab="Passengers", 
+     border="red", 
+     col="green",
+     xlim=c(100,700),
+     las=1, 
+     breaks=5)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+ 
+
+
+
+
+
+
+
