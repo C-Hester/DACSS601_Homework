@@ -1,5 +1,5 @@
 ---
-title: "First Blog Post"
+title: "First Blog"
 description: 
   DACSS 601 HomeWork 1
 author:
@@ -9,7 +9,7 @@ categories:
   - homework 1
   - DACSS 601
   - cynthia hester
-  
+
 output:
   distill::distill_article:
     self-contained: false
@@ -21,6 +21,19 @@ This is my first attempt at a blog post in R,whew!
 
 I am going to import data from the Air Passengers data set which is included in R. It is comprised of data from the monthly totals of international airline passengers, 1949 to 1960. I am going visually express the data on a histogram plot which is a strength of R.
 
+
+First, we are going to look at the first few rows of the Air Passengers argument using the *head function* in R which displays the first few rows of an argument. This is useful so that the entire data set does not need be displayed.
+
+
+```{r}
+head(AirPassengers) 
+```
+
+Next, to get an idea of what is at the end of the Air Passengers data set we are going to use the *tail function* which as the name implies displays what is at the end of the data set.
+
+```{r}
+tail(AirPassengers) 
+```
 
 
 
@@ -47,7 +60,7 @@ hist(AirPassengers,
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
