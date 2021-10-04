@@ -16,8 +16,11 @@ output:
 draft: true
 ---
 
+**Introduction**
 
-This is my first attempt at a blog post in R,whew!
+Hey everyone, my name is Cynthia and this is my first blog post. Whew!! I am a first year MS student in the DACSS program. I have a BS in Human Computer Interaction (HCI) with a  minor in Information Technology from UMass-Amherst. I am originally from Port-of Spain, Trinidad. My hobbies include hiking, yoga,cycling, travel and reading.
+
+**Cool stuff *R* can do**
 
 I am going to import data from the Air Passengers data set which is included in R. It is comprised of data from the monthly totals of international airline passengers, 1949 to 1960. I am going visually express the data on a histogram plot which is a strength of R.
 
